@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7295A632BAA6E9500CF7F7B /* DietDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A622BAA6E9500CF7F7B /* DietDiaryApp.swift */; };
+		F7295A652BAA6E9500CF7F7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A642BAA6E9500CF7F7B /* ContentView.swift */; };
+		F7295A672BAA6E9A00CF7F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7295A662BAA6E9A00CF7F7B /* Assets.xcassets */; };
+		F7295A6A2BAA6E9A00CF7F7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7295A692BAA6E9A00CF7F7B /* Preview Assets.xcassets */; };
+		F7295A742BAA6E9B00CF7F7B /* DietDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A732BAA6E9B00CF7F7B /* DietDiaryTests.swift */; };
+		F7295A7E2BAA6E9B00CF7F7B /* DietDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A7D2BAA6E9B00CF7F7B /* DietDiaryUITests.swift */; };
+		F7295A802BAA6E9B00CF7F7B /* DietDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A7F2BAA6E9B00CF7F7B /* DietDiaryUITestsLaunchTests.swift */; };
+		F7295A8E2BAA723200CF7F7B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A8D2BAA723200CF7F7B /* LoginView.swift */; };
+		F7295A902BAA724400CF7F7B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A8F2BAA724400CF7F7B /* SignUpView.swift */; };
+		F7295A932BAA771F00CF7F7B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A922BAA771F00CF7F7B /* SplashView.swift */; };
+		F7295A952BAA775000CF7F7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A942BAA775000CF7F7B /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7295A702BAA6E9B00CF7F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7295A572BAA6E9500CF7F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7295A5E2BAA6E9500CF7F7B;
+			remoteInfo = DietDiary;
+		};
+		F7295A7A2BAA6E9B00CF7F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7295A572BAA6E9500CF7F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7295A5E2BAA6E9500CF7F7B;
+			remoteInfo = DietDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7295A5F2BAA6E9500CF7F7B /* DietDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7295A622BAA6E9500CF7F7B /* DietDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDiaryApp.swift; sourceTree = "<group>"; };
+		F7295A642BAA6E9500CF7F7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7295A662BAA6E9A00CF7F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7295A692BAA6E9A00CF7F7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7295A6F2BAA6E9B00CF7F7B /* DietDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7295A732BAA6E9B00CF7F7B /* DietDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDiaryTests.swift; sourceTree = "<group>"; };
+		F7295A792BAA6E9B00CF7F7B /* DietDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7295A7D2BAA6E9B00CF7F7B /* DietDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDiaryUITests.swift; sourceTree = "<group>"; };
+		F7295A7F2BAA6E9B00CF7F7B /* DietDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7295A8D2BAA723200CF7F7B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F7295A8F2BAA724400CF7F7B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F7295A922BAA771F00CF7F7B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F7295A942BAA775000CF7F7B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7295A5C2BAA6E9500CF7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7295A6C2BAA6E9B00CF7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7295A762BAA6E9B00CF7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7295A562BAA6E9500CF7F7B = {
+			isa = PBXGroup;
+			children = (
+				F7295A612BAA6E9500CF7F7B /* DietDiary */,
+				F7295A722BAA6E9B00CF7F7B /* DietDiaryTests */,
+				F7295A7C2BAA6E9B00CF7F7B /* DietDiaryUITests */,
+				F7295A602BAA6E9500CF7F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7295A602BAA6E9500CF7F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A5F2BAA6E9500CF7F7B /* DietDiary.app */,
+				F7295A6F2BAA6E9B00CF7F7B /* DietDiaryTests.xctest */,
+				F7295A792BAA6E9B00CF7F7B /* DietDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7295A612BAA6E9500CF7F7B /* DietDiary */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A912BAA770E00CF7F7B /* View */,
+				F7295A8C2BAA721000CF7F7B /* Login */,
+				F7295A622BAA6E9500CF7F7B /* DietDiaryApp.swift */,
+				F7295A662BAA6E9A00CF7F7B /* Assets.xcassets */,
+				F7295A682BAA6E9A00CF7F7B /* Preview Content */,
+			);
+			path = DietDiary;
+			sourceTree = "<group>";
+		};
+		F7295A682BAA6E9A00CF7F7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A692BAA6E9A00CF7F7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7295A722BAA6E9B00CF7F7B /* DietDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A732BAA6E9B00CF7F7B /* DietDiaryTests.swift */,
+			);
+			path = DietDiaryTests;
+			sourceTree = "<group>";
+		};
+		F7295A7C2BAA6E9B00CF7F7B /* DietDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A7D2BAA6E9B00CF7F7B /* DietDiaryUITests.swift */,
+				F7295A7F2BAA6E9B00CF7F7B /* DietDiaryUITestsLaunchTests.swift */,
+			);
+			path = DietDiaryUITests;
+			sourceTree = "<group>";
+		};
+		F7295A8C2BAA721000CF7F7B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A8D2BAA723200CF7F7B /* LoginView.swift */,
+				F7295A8F2BAA724400CF7F7B /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F7295A912BAA770E00CF7F7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7295A922BAA771F00CF7F7B /* SplashView.swift */,
+				F7295A942BAA775000CF7F7B /* MainView.swift */,
+				F7295A642BAA6E9500CF7F7B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7295A5E2BAA6E9500CF7F7B /* DietDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7295A832BAA6E9B00CF7F7B /* Build configuration list for PBXNativeTarget "DietDiary" */;
+			buildPhases = (
+				F7295A5B2BAA6E9500CF7F7B /* Sources */,
+				F7295A5C2BAA6E9500CF7F7B /* Frameworks */,
+				F7295A5D2BAA6E9500CF7F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DietDiary;
+			productName = DietDiary;
+			productReference = F7295A5F2BAA6E9500CF7F7B /* DietDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7295A6E2BAA6E9B00CF7F7B /* DietDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7295A862BAA6E9B00CF7F7B /* Build configuration list for PBXNativeTarget "DietDiaryTests" */;
+			buildPhases = (
+				F7295A6B2BAA6E9B00CF7F7B /* Sources */,
+				F7295A6C2BAA6E9B00CF7F7B /* Frameworks */,
+				F7295A6D2BAA6E9B00CF7F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7295A712BAA6E9B00CF7F7B /* PBXTargetDependency */,
+			);
+			name = DietDiaryTests;
+			productName = DietDiaryTests;
+			productReference = F7295A6F2BAA6E9B00CF7F7B /* DietDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7295A782BAA6E9B00CF7F7B /* DietDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7295A892BAA6E9B00CF7F7B /* Build configuration list for PBXNativeTarget "DietDiaryUITests" */;
+			buildPhases = (
+				F7295A752BAA6E9B00CF7F7B /* Sources */,
+				F7295A762BAA6E9B00CF7F7B /* Frameworks */,
+				F7295A772BAA6E9B00CF7F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7295A7B2BAA6E9B00CF7F7B /* PBXTargetDependency */,
+			);
+			name = DietDiaryUITests;
+			productName = DietDiaryUITests;
+			productReference = F7295A792BAA6E9B00CF7F7B /* DietDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7295A572BAA6E9500CF7F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F7295A5E2BAA6E9500CF7F7B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F7295A6E2BAA6E9B00CF7F7B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F7295A5E2BAA6E9500CF7F7B;
+					};
+					F7295A782BAA6E9B00CF7F7B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F7295A5E2BAA6E9500CF7F7B;
+					};
+				};
+			};
+			buildConfigurationList = F7295A5A2BAA6E9500CF7F7B /* Build configuration list for PBXProject "DietDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7295A562BAA6E9500CF7F7B;
+			productRefGroup = F7295A602BAA6E9500CF7F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7295A5E2BAA6E9500CF7F7B /* DietDiary */,
+				F7295A6E2BAA6E9B00CF7F7B /* DietDiaryTests */,
+				F7295A782BAA6E9B00CF7F7B /* DietDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7295A5D2BAA6E9500CF7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7295A6A2BAA6E9A00CF7F7B /* Preview Assets.xcassets in Resources */,
+				F7295A672BAA6E9A00CF7F7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7295A6D2BAA6E9B00CF7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7295A772BAA6E9B00CF7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7295A5B2BAA6E9500CF7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7295A902BAA724400CF7F7B /* SignUpView.swift in Sources */,
+				F7295A952BAA775000CF7F7B /* MainView.swift in Sources */,
+				F7295A8E2BAA723200CF7F7B /* LoginView.swift in Sources */,
+				F7295A932BAA771F00CF7F7B /* SplashView.swift in Sources */,
+				F7295A652BAA6E9500CF7F7B /* ContentView.swift in Sources */,
+				F7295A632BAA6E9500CF7F7B /* DietDiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7295A6B2BAA6E9B00CF7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7295A742BAA6E9B00CF7F7B /* DietDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7295A752BAA6E9B00CF7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7295A802BAA6E9B00CF7F7B /* DietDiaryUITestsLaunchTests.swift in Sources */,
+				F7295A7E2BAA6E9B00CF7F7B /* DietDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7295A712BAA6E9B00CF7F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7295A5E2BAA6E9500CF7F7B /* DietDiary */;
+			targetProxy = F7295A702BAA6E9B00CF7F7B /* PBXContainerItemProxy */;
+		};
+		F7295A7B2BAA6E9B00CF7F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7295A5E2BAA6E9500CF7F7B /* DietDiary */;
+			targetProxy = F7295A7A2BAA6E9B00CF7F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7295A812BAA6E9B00CF7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7295A822BAA6E9B00CF7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7295A842BAA6E9B00CF7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DietDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = T9JBD726X3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jh.DietDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7295A852BAA6E9B00CF7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DietDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = T9JBD726X3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jh.DietDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7295A872BAA6E9B00CF7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9JBD726X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jh.DietDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DietDiary";
+			};
+			name = Debug;
+		};
+		F7295A882BAA6E9B00CF7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9JBD726X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jh.DietDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DietDiary";
+			};
+			name = Release;
+		};
+		F7295A8A2BAA6E9B00CF7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9JBD726X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jh.DietDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietDiary;
+			};
+			name = Debug;
+		};
+		F7295A8B2BAA6E9B00CF7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9JBD726X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jh.DietDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7295A5A2BAA6E9500CF7F7B /* Build configuration list for PBXProject "DietDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7295A812BAA6E9B00CF7F7B /* Debug */,
+				F7295A822BAA6E9B00CF7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7295A832BAA6E9B00CF7F7B /* Build configuration list for PBXNativeTarget "DietDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7295A842BAA6E9B00CF7F7B /* Debug */,
+				F7295A852BAA6E9B00CF7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7295A862BAA6E9B00CF7F7B /* Build configuration list for PBXNativeTarget "DietDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7295A872BAA6E9B00CF7F7B /* Debug */,
+				F7295A882BAA6E9B00CF7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7295A892BAA6E9B00CF7F7B /* Build configuration list for PBXNativeTarget "DietDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7295A8A2BAA6E9B00CF7F7B /* Debug */,
+				F7295A8B2BAA6E9B00CF7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7295A572BAA6E9500CF7F7B /* Project object */;
+}
