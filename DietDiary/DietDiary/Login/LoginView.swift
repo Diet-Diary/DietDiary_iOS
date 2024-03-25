@@ -52,6 +52,7 @@ struct LoginView: View {
                         // 로그인 버튼
                         Button(action: {
                             // 아이디, 비밀번호 로그인 api 파라미터로 보내주는 코드 작성 
+                            self.loginSuccess = true // 테스트용 
                         }) {
                             Text("로그인")
                                 .frame(width: 100, height: 35)

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F7295A632BAA6E9500CF7F7B /* DietDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A622BAA6E9500CF7F7B /* DietDiaryApp.swift */; };
-		F7295A652BAA6E9500CF7F7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A642BAA6E9500CF7F7B /* ContentView.swift */; };
 		F7295A672BAA6E9A00CF7F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7295A662BAA6E9A00CF7F7B /* Assets.xcassets */; };
 		F7295A6A2BAA6E9A00CF7F7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7295A692BAA6E9A00CF7F7B /* Preview Assets.xcassets */; };
 		F7295A742BAA6E9B00CF7F7B /* DietDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7295A732BAA6E9B00CF7F7B /* DietDiaryTests.swift */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F7295A5F2BAA6E9500CF7F7B /* DietDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7295A622BAA6E9500CF7F7B /* DietDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDiaryApp.swift; sourceTree = "<group>"; };
-		F7295A642BAA6E9500CF7F7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7295A662BAA6E9A00CF7F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7295A692BAA6E9A00CF7F7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7295A6F2BAA6E9B00CF7F7B /* DietDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,7 +148,6 @@
 			children = (
 				F7295A922BAA771F00CF7F7B /* SplashView.swift */,
 				F7295A942BAA775000CF7F7B /* MainView.swift */,
-				F7295A642BAA6E9500CF7F7B /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,7 +286,6 @@
 				F7295A952BAA775000CF7F7B /* MainView.swift in Sources */,
 				F7295A8E2BAA723200CF7F7B /* LoginView.swift in Sources */,
 				F7295A932BAA771F00CF7F7B /* SplashView.swift in Sources */,
-				F7295A652BAA6E9500CF7F7B /* ContentView.swift in Sources */,
 				F7295A632BAA6E9500CF7F7B /* DietDiaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,11 +453,13 @@
 				DEVELOPMENT_TEAM = T9JBD726X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "A message that tells the user why the app is requesting access to the device’s camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,11 +484,13 @@
 				DEVELOPMENT_TEAM = T9JBD726X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "A message that tells the user why the app is requesting access to the device’s camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
